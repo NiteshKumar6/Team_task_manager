@@ -12,9 +12,9 @@ app.get("/", (req, res) => {
     res.send("Backend is running");
 });
 
-mongoose.connect(process.env.MONGO_URI)
-    .then(() => console.log("MongoDB Connected"))
-    .catch(err => console.log(err));
+// mongoose.connect(process.env.MONGO_URI)
+//     .then(() => console.log("MongoDB Connected"))
+//     .catch(err => console.log(err));
 
 app.use("/api/tasks", require("./routes/tasks"));
 app.use("/api/auth", require("./routes/auth"));
