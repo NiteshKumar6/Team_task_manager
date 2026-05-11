@@ -29,5 +29,13 @@ npm start
 - Backend: Railway
 - Frontend: Vercel
 
+## Login Credential
+- email-test@gmail.com
+- pass-123
+
+## MongoDbAtlas Login 
+- email-kumarniteshsingh88640@gmail.com
+- pass-@Nitesh6
+
 ##  Author
 Nitesh Singh
