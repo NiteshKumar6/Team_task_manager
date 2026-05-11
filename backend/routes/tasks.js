@@ -14,6 +14,7 @@ router.post("/", async(req, res) => {
     res.json(task);
 });
 
+<<<<<<< HEAD
 // UPDATE task
 router.put("/:id", async(req, res) => {
     try {
@@ -40,4 +41,6 @@ router.delete("/:id", async(req, res) => {
     }
 });
 
+=======
+>>>>>>> f8df8b8 (task features added)
 module.exports = router;
