@@ -1,41 +1,68 @@
-#  Team Task Manager
+# Team Task Manager
 
-A full-stack MERN application to manage tasks, assign work, and track progress.
+A full-stack MERN task management application for creating tasks, assigning work, and tracking progress across a team.
 
-##  Features
-- Create tasks
-- Assign tasks
-- Track status (Pending / Done)
-- View all tasks
+## Features
 
-##  Tech Stack
-- Frontend: React
-- Backend: Node.js + Express
-- Database: MongoDB
+- Create and manage team tasks
+- Assign tasks to users
+- Track task status across pending and completed work
+- Separate frontend and backend application structure
+- MongoDB-backed data storage
 
-##  Run Locally
+## Tech Stack
 
-Backend:
+| Layer | Tools |
+|---|---|
+| Frontend | React |
+| Backend | Node.js, Express.js |
+| Database | MongoDB |
+| Deployment | Vercel, Railway |
+
+## Project Structure
+
+```text
+.
+├── backend/
+├── frontend/
+├── .env.example
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+## Environment Variables
+
+Create a `.env` file for local development. Never commit real credentials.
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+PORT=5000
+JWT_SECRET=your_local_secret
+```
+
+## Run Locally
+
+Install backend dependencies:
+
+```bash
 cd backend
 npm install
-node server.js
+npm start
+```
 
-Frontend:
+Install frontend dependencies:
+
+```bash
 cd frontend
 npm install
 npm start
+```
 
-##  Deployment
-- Backend: Railway
-- Frontend: Vercel
+## Portfolio Notes
 
-## Login Credential
-- email-test@gmail.com
-- pass-123
+This project demonstrates full-stack application structure, API integration, CRUD workflows, and basic team productivity features. For data analyst roles, this repository should stay unpinned unless it is extended with reporting dashboards, task completion metrics, and productivity analytics.
 
-## MongoDbAtlas Login 
-- email-kumarniteshsingh88640@gmail.com
-- pass-@Nitesh6
+## Author
 
-##  Author
-Nitesh Singh
+Nitesh Kumar
